@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node --env-file=.env --import tsx src/mini-opencode-v2.ts"
+  },
+  "dependencies": {
+    "effect": "4.0.0-beta.83"
+  },
+  "devDependencies": {
+    "@types/node": "22",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

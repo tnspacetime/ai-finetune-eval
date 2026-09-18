@@ -1,0 +1,24 @@
+# Startup settings; benchmark settings are not frozen yet.
+model: Qwen/Qwen3.5-4B
+revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+served-model-name: Qwen/Qwen3.5-4B
+host: 127.0.0.1
+port: 8000
+
+dtype: bfloat16
+language-model-only: true
+max-model-len: 32768
+max-num-seqs: 1
+max-num-batched-tokens: 2048
+gpu-memory-utilization: 0.30
+# Use the explicit negative flag; the top-level YAML loader drops false here.
+no-enable-prefix-caching: true
+
+enable-auto-tool-choice: true
+tool-call-parser: qwen3_coder
+reasoning-parser: qwen3
+default-chat-template-kwargs:
+  enable_thinking: true
+generation-config: vllm
+seed: 0
+enable-per-request-metrics: true

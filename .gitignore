@@ -1,0 +1,22 @@
+# Never commit these, including after later folders are released.
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.db
+*.db-shm
+*.db-wal
+harness/node_modules/
+harness/evidence/
+
+# Not public yet. Delete a line when that work is ready to commit.
+/gateway/
+/evals/
+/playground/
+/captures/
+/docs/
+/AGENTS.md
+/.agents/
+/LAB.md
