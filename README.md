@@ -43,4 +43,20 @@ The harness talks to `http://127.0.0.1:8000/v1`. It can `read`, `write`, and run
 
 Details and the two check prompts: [harness/README.md](harness/README.md).
 
-`playground/wordcount/` is a sample workspace the harness built and tested. See [playground/README.md](playground/README.md).
+## 3. Optional: same playground coding task
+
+`playground/wordcount/` is the app from one local harness run. To try the same task from an empty folder, with vLLM already running:
+
+```bash
+mkdir -p playground/wordcount-try
+cd harness
+MINI_V2_ROOT=../playground/wordcount-try bun run start
+```
+
+Then paste:
+
+```text
+Build a small Python command-line app in this directory that counts lines, words, and characters in a text file. Include tests and a README. Run it and make sure it works.
+```
+
+Full notes: [playground/README.md](playground/README.md).

@@ -10,6 +10,7 @@ __pycache__/
 *.db-wal
 harness/node_modules/
 harness/evidence/
+/playground/wordcount-try/
 
 # Not public yet. Delete a line when that work is ready to commit.
 /gateway/
