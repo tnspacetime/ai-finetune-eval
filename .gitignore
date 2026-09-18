@@ -14,7 +14,6 @@ harness/evidence/
 # Not public yet. Delete a line when that work is ready to commit.
 /gateway/
 /evals/
-/playground/
 /captures/
 /docs/
 /AGENTS.md

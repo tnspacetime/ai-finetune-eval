@@ -42,3 +42,5 @@ bun run start
 The harness talks to `http://127.0.0.1:8000/v1`. It can `read`, `write`, and run `bash` in this repository. That is a working directory, not a sandbox.
 
 Details and the two check prompts: [harness/README.md](harness/README.md).
+
+`playground/wordcount/` is a sample workspace the harness built and tested. See [playground/README.md](playground/README.md).

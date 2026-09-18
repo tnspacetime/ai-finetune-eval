@@ -1,0 +1,8 @@
+Hello World!
+This is a test file for the text counter.
+
+It contains three lines.
+Let's count something.
+
+Characters: H-E-L-L-O space space 'print(something)'
+Unicode: 你好世界 こんにちは
